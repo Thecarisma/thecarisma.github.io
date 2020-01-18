@@ -1,0 +1,24 @@
+
+# Bypass a blocked website with TOR 
+
+This is a very note tutorial on accessing website blocked by your ISP, router 
+or proxy. Download TOR Browser from any reliable source. 
+
+If you are behind a proxy ensure to configure TOR browser with the proxy settings 
+before connecting to the onion network. 
+
+## Changing TOR proxy in startup
+
+While TOR is trying to connect click cancel -> configure -> select I use a proxy to connect to internet 
+Select the proxy type usually HTTP/HTTPS enter the proxy address and port, the port is usually 8080, 
+makesure the proxy address does not start with protocol e.g `https://myproxy.com` is wrong, instead 
+enter `myproxy.com` only. Then click connect. 
+
+If you don't know your proxy settings open your PC settings and go to the proxy page. 
+You will see the proxy settings there. 
+
+Then you can access your internet with no hold back, TOR is a layer over the firefox browser hence 
+whatever you can do in firefox you can do in TOR with privacy and security. you should be worried 
+over firefox and chrome not TOR.The quieter you become the more you are able to hear.
+
+
