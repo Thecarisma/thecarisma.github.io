@@ -36,7 +36,7 @@ function setIconColor(id) {
     for (var iconId of iconIds) {
         document.getElementById(iconId).style.color = "white";
     }
-    document.getElementById(id).style.color = "green"
+    document.getElementById(id).style.color = "#00ff6a"
 }
 
 function treatVariables() {
