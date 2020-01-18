@@ -41,8 +41,12 @@ function setIconColor(id) {
 
 function treatVariables() {
     for (var blog of BlogPostFeatured) {
-        document.getElementById(id).innerHTML += `
-        
+        document.getElementById("featured-blog-posts").innerHTML += `
+                <div>
+                    <a href="${blog.link}">${blog.title}</a><br/>
+                    <span style="font-size:20px;">${blog.date} - ${blog.site} <br/>
+                    ${blog.tags}</span>
+                </div>
         `;
     }
 }
