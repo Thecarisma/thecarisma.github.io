@@ -17,21 +17,25 @@ html, body {
     z-index: 1;
     top: 0;
     left: 0;
-    padding: 10px;
+    padding-top: 20px;
     background-color: #0c3452;
     overflow-x: hidden;
-    padding-top: 20px;
     -webkit-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
     -moz-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
     box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
 }
 
 .sidenav i {
-    padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: white;
     display: block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.sidenav a {
+    text-decoration: none;
 }
 
 .sidenav i:hover {
