@@ -64,7 +64,7 @@ body {
 }
 
 #Home .left-side {
-    width: 65%;
+    width: 60%;
     float: left;
     height: 100%;
 }
@@ -79,10 +79,18 @@ body {
 }
 
 #Home .right-side {
-    background: green;
-    width: 35%;
+    padding-top: 10%;
+    width: 40%;
     float: right;
     height: 100%;
+}
+
+#Home .right-side a {
+    color: white;
+}
+
+#Home .right-side a:hover {
+    color: gray;
 }
 
 
