@@ -40,5 +40,9 @@ function setIconColor(id) {
 }
 
 function treatVariables() {
-    
+    for (var blog of BlogPostFeatured) {
+        document.getElementById(id).innerHTML += `
+        
+        `;
+    }
 }
