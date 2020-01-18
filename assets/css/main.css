@@ -9,6 +9,7 @@ body {
     height: 100%;
     margin:0;
     padding:0;
+    color: white;
 }
 
 .sidenav {
@@ -38,7 +39,6 @@ body {
 .sidenav i {
     text-decoration: none;
     font-size: 30px;
-    color: white;
     display: block;
     padding: 20px;
     cursor: pointer;
@@ -57,12 +57,36 @@ body {
 }
 
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 80px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
+    height: 100vh !important;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+#Home .left-side {
+     background: red;
+     width: 80%;
 }
+
+#Home .right-side {
+     background: red;
+     width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
