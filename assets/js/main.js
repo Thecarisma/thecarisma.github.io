@@ -1,5 +1,6 @@
 
 openHome();
+treatVariables();
 
 function openHome() {
     openDivById("Home");
@@ -36,4 +37,8 @@ function setIconColor(id) {
         document.getElementById(iconId).style.color = "white";
     }
     document.getElementById(id).style.color = "green"
+}
+
+function treatVariables() {
+    
 }
