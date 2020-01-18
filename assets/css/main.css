@@ -64,13 +64,25 @@ body {
 }
 
 #Home .left-side {
-     background: red;
-     width: 80%;
+    width: 65%;
+    float: left;
+    height: 100%;
+}
+
+#Home .left-side p {
+    padding: 10%;
+    font-size: 40px;
+}
+
+#Home .left-side p .s1 {
+    font-size: 20px;
 }
 
 #Home .right-side {
-     background: red;
-     width: 80%;
+    background: green;
+    width: 35%;
+    float: right;
+    height: 100%;
 }
 
 
