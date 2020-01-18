@@ -1,3 +1,7 @@
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 html, body {
     background: #0c3452;
     overflow: hidden;
@@ -9,25 +13,28 @@ html, body {
 
 .sidenav {
     height: 100%;
-    width: 160px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
+    padding: 10px;
     background-color: #0c3452;
     overflow-x: hidden;
     padding-top: 20px;
+    -webkit-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
+    -moz-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
+    box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
 }
 
-.sidenav a {
+.sidenav i {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
 }
 
-.sidenav a:hover {
+.sidenav i:hover {
     color: #f1f1f1;
 }
 
