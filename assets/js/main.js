@@ -12,4 +12,5 @@ function openDivById(id) {
         arr[a].display = "none"; 
     }
     document.getElementById(id).display = "block";
+    document.getElementById(id).display = "block";
 }
