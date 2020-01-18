@@ -1,8 +1,8 @@
 
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-html, body {
+body {
     background: #0c3452;
     overflow: hidden;
     width: 100%;
@@ -23,6 +23,9 @@ html, body {
     -webkit-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
     -moz-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
     box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sidenav .icon {
@@ -34,7 +37,7 @@ html, body {
 
 .sidenav i {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     display: block;
     padding: 20px;
@@ -47,6 +50,10 @@ html, body {
 
 .sidenav i:hover {
     color: #f1f1f1;
+}
+
+.sidenav .bottom-sidenav {
+    margin-bottom: 70% !important;
 }
 
 .main {
