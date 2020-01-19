@@ -1,5 +1,5 @@
 
-openBlog();
+openProjects();
 treatVariables();
 
 function openHome() {
