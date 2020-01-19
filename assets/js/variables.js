@@ -42,6 +42,30 @@ const AllProjects = [
             {
                 url: "https://github.com/Thecarisma/Cronux",
                 icon_class: "fab fa-github"
+            },
+            {
+                url: "https://keyvaluedb.github.io/",
+                icon_class: "fa fa-globe"
+            },
+            {
+                url: "https://github.com/keyvaluedb/key-value-db-c",
+                icon_class: "devicon-c-plain"
+            },
+            {
+                url: "https://www.npmjs.com/package/@thecarisma/key-value-db",
+                icon_class: "fab fa-npm"
+            },
+            {
+                url: "https://github.com/keyvaluedb/key-value-db-java",
+                icon_class: "fab fa-java"
+            },
+            {
+                url: "https://pypi.org/project/key-value-db/",
+                icon_class: "fab fa-python"
+            },
+            {
+                url: "https://www.nuget.org/packages/KeyValueDB/",
+                icon_class: "devicon-csharp-plain"
             }
         ]
     }
