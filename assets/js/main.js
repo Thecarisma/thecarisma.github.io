@@ -1,5 +1,5 @@
 
-openProjects();
+openHome();
 treatVariables();
 
 function openHome() {
