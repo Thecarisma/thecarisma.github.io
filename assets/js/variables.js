@@ -160,6 +160,22 @@ const AllProjects = [
                 icon_class: "fa fa-globe"
             }
         ]
+    },
+    {
+        name: "clifilemaster.js",
+        description: "A command-line file picker for nodejs with promise support.",
+        techs: "#c++ #makefile #c #bash",
+        main_url: "https://github.com/Thecarisma/clifilemaster.js",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/clifilemaster.js",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://github.com/Thecarisma/clifilemaster.js",
+                icon_class: "fa fa-globe"
+            }
+        ]
     }
 ]
 
