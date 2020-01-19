@@ -34,13 +34,77 @@ const AllProjects = [
         ]
     },
     {
+        name: "libo-types",
+        description: "A library of generic, complex data types and structures for C",
+        techs: "#c #c++ #makefile",
+        main_url: "https://github.com/liboprojects/libo-types",
+        links: [
+            {
+                url: "https://github.com/liboprojects/libo-types",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://liboprojects.github.io/libo-types/",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "libo-processes",
+        description: "Get list of running processes and listen to process life-cycle with callback",
+        techs: "#c++ #makefile",
+        main_url: "https://liboprojects.github.io/libo-processes",
+        links: [
+            {
+                url: "https://github.com/liboprojects/libo-processes",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://liboprojects.github.io/libo-processes",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "audio-tube",
+        description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
+        techs: "#php #wordpress #javascript",
+        main_url: "https://github.com/liboprojects/libo-notify",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/audio-tube",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://liboprojects.github.io/libo-notify",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "libo-notify",
+        description: "Send system notification on various platform",
+        techs: "#c++ #makefile #c #bash",
+        main_url: "https://github.com/liboprojects/libo-notify",
+        links: [
+            {
+                url: "https://github.com/liboprojects/libo-notify",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://liboprojects.github.io/libo-notify",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
         name: "key-value-db",
         description: "Light weight package to quickly and easily manage, load, update and save key-value type database. Available in multiple languages.",
         techs: "#java #python #csharp #c #nodejs #simple #go",
-        main_url: "https://github.com/Thecarisma/Cronux",
+        main_url: "https://keyvaluedb.github.io/",
         links: [
             {
-                url: "https://github.com/Thecarisma/Cronux",
+                url: "https://github.com/keyvaluedb",
                 icon_class: "fab fa-github"
             },
             {
@@ -70,3 +134,15 @@ const AllProjects = [
         ]
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
