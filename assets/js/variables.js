@@ -192,6 +192,38 @@ const AllProjects = [
                 icon_class: "fa fa-globe"
             }
         ]
+    },
+    {
+        name: "dec2bin",
+        description: "Convert a binary to decimal and decimal to binary (according to The Art of Assembly Language Book Chapter 1).",
+        techs: "#python",
+        main_url: "https://quickutils.github.io/dec2bin/",
+        links: [
+            {
+                url: "https://github.com/quickutils/dec2bin",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://quickutils.github.io/dec2bin/",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "stitchvariable",
+        description: "Initiate a variable name change on a Java source file, support wildcard in variable name manipulation",
+        techs: "#python",
+        main_url: "https://quickutils.github.io/stitchvariable/",
+        links: [
+            {
+                url: "https://github.com/quickutils/stitchvariable",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://quickutils.github.io/stitchvariable/",
+                icon_class: "fa fa-globe"
+            }
+        ]
     }
 ]
 
