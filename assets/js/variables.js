@@ -176,6 +176,22 @@ const AllProjects = [
                 icon_class: "fa fa-globe"
             }
         ]
+    },
+    {
+        name: "audio-tube",
+        description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
+        techs: "#php #wordpress #javascript",
+        main_url: "https://github.com/liboprojects/libo-notify",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/audio-tube",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://github.com/Thecarisma/audio-tube",
+                icon_class: "fa fa-globe"
+            }
+        ]
     }
 ]
 
