@@ -133,10 +133,10 @@ body {
 
 .project {
     font-size: 20px;
-    margin-top: 50px;
-    margin-right: 20px;
-    min-width: 450px;
-    width: 450px;
+    margin-top: 40px;
+    margin-right: 10px;
+    min-width: 400px;
+    width: 400px;
     max-width: 450px;
 }
 
