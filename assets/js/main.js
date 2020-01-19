@@ -1,5 +1,5 @@
 
-openHome();
+openBlog();
 treatVariables();
 
 function openHome() {
@@ -13,6 +13,7 @@ function openProjects() {
 }
 
 function openBlog() {
+    openDivById("Posts");
     setIconColor("fa-edit");
 }
 
