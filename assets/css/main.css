@@ -55,6 +55,10 @@ body {
     margin-bottom: 70% !important;
 }
 
+.sidenav .bottom-sidenav a {
+    color: white;
+}
+
 .main {
     margin-left: 80px; /* Same as the width of the sidenav */
     padding: 0px 10px;
@@ -135,13 +139,12 @@ body {
 }
 
 .project .tech-used {
-    margin-top: 10px;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .project .links {
-    margin-top: 10px;
-    font-size: 30px;
+    margin-top: 20px;
+    font-size: 25px;
 }
 
 .project .links a {

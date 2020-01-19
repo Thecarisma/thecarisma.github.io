@@ -23,7 +23,10 @@ const AllProjects = [
         techs: "#powershell #batch #bash",
         main_url: "https://github.com/Thecarisma/Cronux",
         links: [
-        
+            {
+                url: "https://github.com/Thecarisma/Cronux",
+                icon_class: ""
+            }
         ]
     }
 ]
