@@ -51,7 +51,7 @@ const AllProjects = [
     },
     {
         name: "libo-processes",
-        description: "Get list of running processes and listen to process life-cycle with callback",
+        description: "Get list of running processes and listen to process life cycle with callback",
         techs: "#c++ #makefile",
         main_url: "https://liboprojects.github.io/libo-processes",
         links: [
