@@ -85,6 +85,12 @@ body {
     font-size: 20px;
 }
 
+#Home .left-side p .s2 {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 #Home .right-side {
     padding-top: 8%;
     width: 50%;
