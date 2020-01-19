@@ -66,22 +66,6 @@ const AllProjects = [
         ]
     },
     {
-        name: "audio-tube",
-        description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
-        techs: "#php #wordpress #javascript",
-        main_url: "https://github.com/liboprojects/libo-notify",
-        links: [
-            {
-                url: "https://github.com/Thecarisma/audio-tube",
-                icon_class: "fab fa-github"
-            },
-            {
-                url: "https://github.com/Thecarisma/audio-tube",
-                icon_class: "fa fa-globe"
-            }
-        ]
-    },
-    {
         name: "libo-notify",
         description: "Send system notification on various platform",
         techs: "#c++ #makefile #c #bash",
@@ -130,6 +114,22 @@ const AllProjects = [
             {
                 url: "https://www.nuget.org/packages/KeyValueDB/",
                 icon_class: "devicon-csharp-plain"
+            }
+        ]
+    },
+    {
+        name: "audio-tube",
+        description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
+        techs: "#php #wordpress #javascript",
+        main_url: "https://github.com/liboprojects/libo-notify",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/audio-tube",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://github.com/Thecarisma/audio-tube",
+                icon_class: "fa fa-globe"
             }
         ]
     }
