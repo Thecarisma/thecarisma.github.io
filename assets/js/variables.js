@@ -178,6 +178,22 @@ const AllProjects = [
         ]
     },
     {
+        name: "devjammer",
+        description: "Regain device access if denied/disabled by other programs (esp. device control programs, ransomware)",
+        techs: "#javascript #html #css",
+        main_url: "https://thedarkprojects.github.io/devjammer/",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/screenshot_it",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://thedarkprojects.github.io/devjammer/",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
         name: "audio-tube",
         description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
         techs: "#php #wordpress #javascript",
@@ -221,6 +237,22 @@ const AllProjects = [
             },
             {
                 url: "https://quickutils.github.io/stitchvariable/",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "screenshot_it",
+        description: "Initiate a variable name change on a Java source file, support wildcard in variable name manipulation",
+        techs: "#javascript #html #css",
+        main_url: "https://github.com/Thecarisma/screenshot_it",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/screenshot_it",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://github.com/Thecarisma/screenshot_it",
                 icon_class: "fa fa-globe"
             }
         ]
