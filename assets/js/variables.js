@@ -66,25 +66,37 @@ const AllProjects = [
         ]
     },
     {
-        name: "libo-notify",
-        description: "Send system notification on various platform",
-        techs: "#c++ #makefile #c #bash",
-        main_url: "https://github.com/liboprojects/libo-notify",
+        name: "language-colors",
+        description: "GitHub programming languages color codes in CSS, NodeJS and Javascript.",
+        techs: "#css #javascript #nodejs #powershell",
+        main_url: "https://quickutils.github.io/language-colors/",
         links: [
             {
-                url: "https://github.com/liboprojects/libo-notify",
+                url: "https://github.com/quickutils/language-colors",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://liboprojects.github.io/libo-notify",
+                url: "https://quickutils.github.io/language-colors/",
                 icon_class: "fa fa-globe"
+            },
+            {
+                url: "https://quickutils.github.io/language-colors/language-colors.js",
+                icon_class: "fab fa-js"
+            },
+            {
+                url: "https://www.npmjs.com/package/language-colors",
+                icon_class: "fab fa-npm"
+            },
+            {
+                url: "https://quickutils.github.io/language-colors/language-colors.css",
+                icon_class: "fab fa-css3"
             }
         ]
     },
     {
         name: "key-value-db",
         description: "Light weight package to quickly and easily manage, load, update and save key-value type database. Available in multiple languages.",
-        techs: "#java #python #csharp #c #nodejs #simple #go",
+        techs: "#java #python #csharp #c #nodejs #simple #go #nodejs",
         main_url: "https://keyvaluedb.github.io/",
         links: [
             {
@@ -129,6 +141,22 @@ const AllProjects = [
             },
             {
                 url: "https://github.com/Thecarisma/audio-tube",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "libo-notify",
+        description: "Send system notification on various platform",
+        techs: "#c++ #makefile #c #bash",
+        main_url: "https://github.com/liboprojects/libo-notify",
+        links: [
+            {
+                url: "https://github.com/liboprojects/libo-notify",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://liboprojects.github.io/libo-notify",
                 icon_class: "fa fa-globe"
             }
         ]
