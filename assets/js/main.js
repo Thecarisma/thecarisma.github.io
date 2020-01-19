@@ -54,6 +54,7 @@ function treatVariables() {
         `;
         
         if (count < 5) { document.getElementById("featured-blog-posts").innerHTML += blogHTML; }
+        document.getElementById("all-posts").innerHTML += blogHTML;
         coun++;
     }
     
