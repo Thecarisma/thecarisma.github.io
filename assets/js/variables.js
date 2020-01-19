@@ -95,7 +95,7 @@ const AllProjects = [
     },
     {
         name: "key-value-db",
-        description: "Light weight package to quickly and easily manage, load, update and save key-value type database. Available in multiple languages.",
+        description: "Light weight package to quickly and easily manage, load, update and save key-value type database. Implemented in multiple languages.",
         techs: "#java #python #csharp #c #nodejs #simple #go #nodejs",
         main_url: "https://keyvaluedb.github.io/",
         links: [
@@ -130,24 +130,24 @@ const AllProjects = [
         ]
     },
     {
-        name: "audio-tube",
-        description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
-        techs: "#php #wordpress #javascript",
-        main_url: "https://github.com/liboprojects/libo-notify",
+        name: "repo-page-scripts",
+        description: "Static website generator for GitHub repository, profile, and organisation using a single script. Just drop index.html and deploy.",
+        techs: "#html #css #javascript #batch",
+        main_url: "https://quickutils.github.io/repo-page-scripts/",
         links: [
             {
-                url: "https://github.com/Thecarisma/audio-tube",
+                url: "https://github.com/quickutils/repo-page-scripts",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://github.com/Thecarisma/audio-tube",
+                url: "https://quickutils.github.io/repo-page-scripts/",
                 icon_class: "fa fa-globe"
             }
         ]
     },
     {
         name: "libo-notify",
-        description: "Send system notification on various platform",
+        description: "Send system notification on various platforms.",
         techs: "#c++ #makefile #c #bash",
         main_url: "https://github.com/liboprojects/libo-notify",
         links: [
