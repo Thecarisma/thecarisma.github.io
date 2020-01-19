@@ -120,6 +120,15 @@ body {
     margin-top: 50px;
 }
 
+.project a {
+    color: white;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
 .project .title {
     font-size: 35px;
     font-weight: bold;
