@@ -134,6 +134,11 @@ body {
     font-weight: bold;
 }
 
+.project .tech-used {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
 .project .links {
     margin-top: 10px;
     font-size: 30px;
