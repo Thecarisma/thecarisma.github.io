@@ -119,9 +119,15 @@ body {
     font-size: 20px;
 }
 
+#Projects #all-projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .project {
     font-size: 20px;
     margin-top: 50px;
+    max-width: 450px;
 }
 
 .project a {
