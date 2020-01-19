@@ -1,6 +1,7 @@
 
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+@import url("https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css");
 
 body {
     background: #0c3452;
@@ -155,6 +156,7 @@ body {
 
 .project .links a {
     color: white;
+    padding: 5px;
 }
 
 
