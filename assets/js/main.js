@@ -40,7 +40,20 @@ function setIconColor(id) {
 }
 
 function treatVariables() {
-    for (var blog of BlogPostFeatured) {
+    //blog posts
+    for (var blog of AllBlogPosts) {
+        //on 5 stop for home
+        document.getElementById("featured-blog-posts").innerHTML += `
+                <div>
+                    <a href="${blog.link}">${blog.title}</a><br/>
+                    <span style="font-size:20px;">${blog.date} - ${blog.site} <br/>
+                    ${blog.tags}</span>
+                </div>
+        `;
+    }
+    
+    //projects
+    for (var project of AllProjects) {
         //on 5 stop for home
         document.getElementById("featured-blog-posts").innerHTML += `
                 <div>
