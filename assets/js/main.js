@@ -8,7 +8,7 @@ function openHome() {
 }
 
 function openProjects() {
-    //openDivById("Projects");
+    openDivById("Projects");
     setIconColor("fa-align-center");
 }
 
@@ -17,7 +17,7 @@ function openBlog() {
 }
 
 function openContact() {
-    //openDivById("Contact");
+    openDivById("Contact");
     setIconColor("fa-paper-plane");
 }
 
@@ -25,10 +25,10 @@ function openDivById(id) {
     var el = document.getElementById('main');
     var arr = el.childNodes;
     for (var a = 0; a < arr.length; a++) { 
-        arr[a].display = "none"; 
+        if (!arr[a].style) continue;
+        arr[a].style.display = "none"; 
     }
-    document.getElementById(id).display = "block";
-    document.getElementById(id).display = "block";
+    document.getElementById(id).style.display = "block";
 }
 
 function setIconColor(id) {
@@ -41,6 +41,7 @@ function setIconColor(id) {
 
 function treatVariables() {
     for (var blog of BlogPostFeatured) {
+        //on 5 stop for home
         document.getElementById("featured-blog-posts").innerHTML += `
                 <div>
                     <a href="${blog.link}">${blog.title}</a><br/>
