@@ -55,12 +55,19 @@ function treatVariables() {
     //projects
     for (var project of AllProjects) {
         //on 5 stop for home
-        document.getElementById("featured-blog-posts").innerHTML += `
-                <div>
-                    <a href="${blog.link}">${blog.title}</a><br/>
-                    <span style="font-size:20px;">${blog.date} - ${blog.site} <br/>
-                    ${blog.tags}</span>
+        var pHTML = `
+                <div class="project">
+                    <span class="title">${project.name}</span>
+                    <p class="description">
+                    ${project.description}
+                    </p>
+                    <span class="tech-used">${project.techs}</span><br/>
+                    <div class="links">
+                        <a target="_blank" href="https://github.com/Thecarisma"><i class="fab fa-github" style="color:white;"></i></a> 
+                    </div>
                 </div>
         `;
+        
+        document.getElementById("all-projects").innerHTML += pHTML;
     }
 }
