@@ -42,15 +42,19 @@ function setIconColor(id) {
 
 function treatVariables() {
     //blog posts
+    var count = 0;
     for (var blog of AllBlogPosts) {
         //on 5 stop for home
-        document.getElementById("featured-blog-posts").innerHTML += `
+        var blogHTML = `
                 <div>
                     <a href="${blog.link}">${blog.title}</a><br/>
                     <span style="font-size:20px;">${blog.date} - ${blog.site} <br/>
                     ${blog.tags}</span>
                 </div>
         `;
+        
+        if (count < 5) { document.getElementById("featured-blog-posts").innerHTML += blogHTML; }
+        coun++;
     }
     
     //projects

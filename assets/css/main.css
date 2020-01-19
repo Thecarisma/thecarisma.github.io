@@ -168,6 +168,15 @@ body {
     padding: 5px;
 }
 
+#Posts {
+    height: 100%;
+    padding: 5%;
+}
+
+#Posts .posts-title p {
+    font-size: 45px;
+}
+
 
 
 
