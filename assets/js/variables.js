@@ -76,7 +76,7 @@ const AllProjects = [
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://liboprojects.github.io/libo-notify",
+                url: "https://github.com/Thecarisma/audio-tube",
                 icon_class: "fa fa-globe"
             }
         ]
