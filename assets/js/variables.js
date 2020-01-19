@@ -25,7 +25,23 @@ const AllProjects = [
         links: [
             {
                 url: "https://github.com/Thecarisma/Cronux",
-                icon_class: ""
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://thecarisma.github.io/Cronux",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "key-value-db",
+        description: "Light weight package to quickly and easily manage, load, update and save key-value type database. Available in multiple languages.",
+        techs: "#java #python #csharp #c #nodejs #simple #go",
+        main_url: "https://github.com/Thecarisma/Cronux",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/Cronux",
+                icon_class: "fab fa-github"
             }
         ]
     }

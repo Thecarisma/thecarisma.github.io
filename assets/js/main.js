@@ -62,9 +62,13 @@ function treatVariables() {
                     ${project.description}
                     </p>
                     <span class="tech-used">${project.techs}</span><br/>
-                    <div class="links">
-                        <a target="_blank" href="https://github.com/Thecarisma"><i class="fab fa-github" style="color:white;"></i></a> 
-                    </div>
+                    <div class="links">`
+         
+            for (var lnink of project.links) {
+                pHTML += `<a target="_blank" href="${lnink.url}"><i class="${lnink.icon_class}" style="color:white;"></i></a> `
+            }
+                        
+        pHTML += `</div>
                 </div>
         `;
         
