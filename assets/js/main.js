@@ -71,3 +71,7 @@ function treatVariables() {
         document.getElementById("all-projects").innerHTML += pHTML;
     }
 }
+
+
+
+
