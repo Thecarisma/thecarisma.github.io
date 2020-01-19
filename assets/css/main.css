@@ -58,7 +58,10 @@ body {
 .main {
     margin-left: 80px; /* Same as the width of the sidenav */
     padding: 0px 10px;
-    height: 100vh !important;
+}
+
+#Home {
+    display: none;
 }
 
 #Home .left-side {
@@ -97,6 +100,37 @@ body {
 
 #Home .right-side a:hover {
     color: gray;
+}
+
+#Projects {
+    height: 100%;
+    padding: 10%;
+}
+
+#Projects .projects-title p {
+    font-size: 45px;
+}
+
+#Projects .projects-title p .s1 {
+    font-size: 20px;
+}
+
+.project {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.project .title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.project .links {
+    margin-top: 10px;
+}
+
+.project .links a {
+    color: white;
 }
 
 
