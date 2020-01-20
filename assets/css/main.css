@@ -190,6 +190,15 @@ body {
     padding-left: 0px;
 }
 
+#Contact {
+    height: 100%;
+    padding: 5%;
+}
+
+#Contact .contact-title p {
+    font-size: 45px;
+}
+
 
 
 
