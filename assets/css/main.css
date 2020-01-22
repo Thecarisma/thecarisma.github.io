@@ -204,9 +204,10 @@ i {
 }
 
 #Contact form * {
-    background: red;
+    background-color: transparent;
     border-style: solid;
     border-color: white;
+    color: white;
 }
 
 
