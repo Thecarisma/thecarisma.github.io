@@ -203,6 +203,11 @@ i {
     font-size: 45px;
 }
 
+#Contact form * {
+    background: red;
+    border-style: solid;
+    border-color: white;
+}
 
 
 
