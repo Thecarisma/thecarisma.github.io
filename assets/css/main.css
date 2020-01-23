@@ -3,6 +3,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
 @import url("https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css");
 
+* {
+    font: italic 1.0em "Fira Sans", serif;
+}
+
 body {
     background: #0c3452;
     width: 100%;
