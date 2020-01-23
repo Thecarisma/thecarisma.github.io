@@ -224,8 +224,8 @@ i {
     height: 200px;
 }
 
-#Contact form textarea {
-    
+#Contact form .submit {
+    cursor: pointer;
 }
 
 
