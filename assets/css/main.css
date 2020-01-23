@@ -213,6 +213,21 @@ i {
     width: 40%;
 }
 
+#Contact form textarea {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+    height: 200px;
+}
+
+#Contact form textarea {
+    
+}
+
 
 
 
