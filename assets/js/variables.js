@@ -187,7 +187,7 @@ const AllProjects = [
     },
     {
         name: "devjammer",
-        type: "desktop application",
+        type: "cli application",
         description: "Regain device access if denied/disabled by other programs (esp. device control programs, ransomware)",
         techs: "#javascript #html #css",
         main_url: "https://thedarkprojects.github.io/devjammer/",
