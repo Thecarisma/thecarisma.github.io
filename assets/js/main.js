@@ -40,6 +40,10 @@ function setIconColor(id) {
     document.getElementById(id).style.color = "#00ff6a"
 }
 
+function selectProjectType(className) {
+    
+}
+
 function treatVariables() {
     //blog posts
     var count = 0;
