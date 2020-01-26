@@ -38,6 +38,7 @@ const AllProjects = [
         name: "libo-types",
         description: "A library of generic, complex data types and structures for C",
         techs: "#c #c++ #makefile",
+        type: "library",
         main_url: "https://github.com/liboprojects/libo-types",
         links: [
             {
@@ -52,6 +53,7 @@ const AllProjects = [
     },
     {
         name: "libo-processes",
+        type: "library",
         description: "Get list of running processes and listen to process life cycle with callback",
         techs: "#c++ #makefile",
         main_url: "https://liboprojects.github.io/libo-processes",
@@ -68,6 +70,7 @@ const AllProjects = [
     },
     {
         name: "language-colors",
+        type: "library",
         description: "GitHub programming languages color codes in CSS, NodeJS and Javascript.",
         techs: "#css #javascript #nodejs #powershell",
         main_url: "https://quickutils.github.io/language-colors/",
@@ -96,6 +99,7 @@ const AllProjects = [
     },
     {
         name: "key-value-db",
+        type: "library",
         description: "Light weight package to quickly and easily manage, load, update and save key-value type database. Implemented in multiple languages.",
         techs: "#java #python #csharp #c #nodejs #simple #go #nodejs",
         main_url: "https://keyvaluedb.github.io/",
@@ -132,6 +136,7 @@ const AllProjects = [
     },
     {
         name: "repo-page-scripts",
+        type: "web",
         description: "Static website generator for GitHub repository, profile, and organisation using a single script. Just drop index.html and deploy.",
         techs: "#html #css #javascript #batch",
         main_url: "https://quickutils.github.io/repo-page-scripts/",
@@ -148,6 +153,7 @@ const AllProjects = [
     },
     {
         name: "libo-notify",
+        type: "library",
         description: "Send system notification on various platforms.",
         techs: "#c++ #makefile #c #bash",
         main_url: "https://github.com/liboprojects/libo-notify",
@@ -164,6 +170,7 @@ const AllProjects = [
     },
     {
         name: "clifilemaster.js",
+        type: "library",
         description: "A command-line file picker for nodejs with promise support.",
         techs: "#c++ #makefile #c #bash",
         main_url: "https://github.com/Thecarisma/clifilemaster.js",
@@ -180,6 +187,7 @@ const AllProjects = [
     },
     {
         name: "devjammer",
+        type: "desktop application",
         description: "Regain device access if denied/disabled by other programs (esp. device control programs, ransomware)",
         techs: "#javascript #html #css",
         main_url: "https://thedarkprojects.github.io/devjammer/",
@@ -196,6 +204,7 @@ const AllProjects = [
     },
     {
         name: "audio-tube",
+        type: "library",
         description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
         techs: "#php #wordpress #javascript",
         main_url: "https://github.com/liboprojects/libo-notify",
@@ -212,6 +221,7 @@ const AllProjects = [
     },
     {
         name: "dec2bin",
+        type: "script",
         description: "Convert a binary to decimal and decimal to binary (according to The Art of Assembly Language Book Chapter 1).",
         techs: "#python",
         main_url: "https://quickutils.github.io/dec2bin/",
@@ -228,6 +238,7 @@ const AllProjects = [
     },
     {
         name: "stitchvariable",
+        type: "script",
         description: "Initiate a variable name change on a Java source file, support wildcard in variable name manipulation",
         techs: "#python",
         main_url: "https://quickutils.github.io/stitchvariable/",
@@ -244,6 +255,7 @@ const AllProjects = [
     },
     {
         name: "screenshot_it",
+        type: "bot",
         description: "Initiate a variable name change on a Java source file, support wildcard in variable name manipulation",
         techs: "#javascript #html #css",
         main_url: "https://github.com/Thecarisma/screenshot_it",
