@@ -40,12 +40,24 @@ function setIconColor(id) {
     document.getElementById(id).style.color = "#00ff6a"
 }
 
-function selectProjectType(className) {
-    var projectChilds = document.getElementsByClassName('project');
+function selectProjectType(node, className) {
+    var projectChilds = document.getElementsByClassName('type-title');
+    for (var projectChild of projectChilds) {
+        projectChild.style.color = 'white';
+        projectChild.onmouseover = function() { this.style.color = "#70c8ff"; }
+        projectChild.onmouseleave = function() { this.style.color = "white"; }
+    }
+    node.style.color = '#70c8ff';
+    node.onmouseleave = null;
+    projectChilds = document.getElementsByClassName('project');
     for (var projectChild of projectChilds) {
         projectChild.style.display = 'none';
     }
-    projectChilds = document.getElementsByClassName(className);
+    if (className === "all") {
+        projectChilds = document.getElementsByClassName("");
+    } else {
+        projectChilds = document.getElementsByClassName(className);
+    }
     for (var projectChild of projectChilds) {
         projectChild.style.display = 'block';
     }
