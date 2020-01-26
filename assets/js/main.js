@@ -41,13 +41,13 @@ function setIconColor(id) {
 }
 
 function selectProjectType(className) {
-    var projectChilds = document.getElementsByClassName(className);
+    var projectChilds = document.getElementsByClassName('project');
     for (var projectChild of projectChilds) {
-        console.log(projectChild.parentNode.innerHTML);
+        projectChild.style.display = 'none';
     }
-    var projectChilds = document.getElementsByClassName(className);
+    projectChilds = document.getElementsByClassName(className);
     for (var projectChild of projectChilds) {
-        console.log(projectChild.parentNode.innerHTML);
+        projectChild.style.display = 'block';
     }
 }
 
@@ -73,9 +73,9 @@ function treatVariables() {
     for (var project of AllProjects) {
         //on 5 stop for home
         var pHTML = `
-                <div class="project">
+                <div class="project ${project.type.replace(' ', '-')}">
                     <a href="${project.main_url}"><span class="title">${project.name}</span></a><br/>
-                    <span class="project-type ${project.type.replace(' ', '-')}">${project.type}</span><br/>
+                    <span class="project-type">${project.type}</span><br/>
                     <p class="description">
                     ${project.description}
                     </p>
