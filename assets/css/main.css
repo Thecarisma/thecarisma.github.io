@@ -161,6 +161,10 @@ i {
     font-weight: bold;
 }
 
+.project .project-type {
+    font-size: 17px;
+}
+
 .project .tech-used {
     font-size: 15px;
 }
