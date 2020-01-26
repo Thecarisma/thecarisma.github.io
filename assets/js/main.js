@@ -41,7 +41,14 @@ function setIconColor(id) {
 }
 
 function selectProjectType(className) {
-    
+    var projectChilds = document.getElementsByClassName(className);
+    for (var projectChild of projectChilds) {
+        console.log(projectChild.parentNode.innerHTML);
+    }
+    var projectChilds = document.getElementsByClassName(className);
+    for (var projectChild of projectChilds) {
+        console.log(projectChild.parentNode.innerHTML);
+    }
 }
 
 function treatVariables() {
@@ -68,7 +75,7 @@ function treatVariables() {
         var pHTML = `
                 <div class="project">
                     <a href="${project.main_url}"><span class="title">${project.name}</span></a><br/>
-                    <span class="project-type ${project.type}.replace(' ', '-')">${project.type}</span><br/>
+                    <span class="project-type ${project.type.replace(' ', '-')}">${project.type}</span><br/>
                     <p class="description">
                     ${project.description}
                     </p>
