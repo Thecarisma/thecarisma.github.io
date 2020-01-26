@@ -134,6 +134,17 @@ i {
     font-size: 20px;
 }
 
+#Projects .projects-title .type {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#Projects .projects-title .type:hover {
+    color: #70c8ff;
+}
+
 #Projects #all-projects {
     display: flex;
     flex-wrap: wrap;
