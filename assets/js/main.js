@@ -63,7 +63,8 @@ function treatVariables() {
         //on 5 stop for home
         var pHTML = `
                 <div class="project">
-                    <a href="${project.main_url}"><span class="title">${project.name}</span></a>
+                    <a href="${project.main_url}"><span class="title">${project.name}</span></a><br/>
+                    <span class="project-type library">library</span><br/>
                     <p class="description">
                     ${project.description}
                     </p>
