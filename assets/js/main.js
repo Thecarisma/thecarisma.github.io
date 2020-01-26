@@ -54,7 +54,7 @@ function selectProjectType(node, className) {
         projectChild.style.display = 'none';
     }
     if (className === "all") {
-        projectChilds = document.getElementsByClassName("");
+        projectChilds = document.getElementsByClassName("project");
     } else {
         projectChilds = document.getElementsByClassName(className);
     }
