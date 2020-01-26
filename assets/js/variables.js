@@ -21,6 +21,7 @@ const AllProjects = [
         name: "Cronux",
         description: "Handy, hacky commands to perform simple and complex task in Windows and Linux CLI",
         techs: "#powershell #batch #bash",
+        type: "cli application",
         main_url: "https://github.com/Thecarisma/Cronux",
         links: [
             {
