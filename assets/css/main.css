@@ -141,6 +141,10 @@ i {
     cursor: pointer;
 }
 
+#Projects .projects-title .selected {
+    color: #70c8ff;
+}
+
 #Projects .projects-title .type:hover {
     color: #70c8ff;
 }
