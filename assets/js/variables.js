@@ -1,6 +1,13 @@
 
 const AllBlogPosts = [
     {
+        title: "Hosting a maven repository on Github: site-maven-plugin",
+        link: "https://dev.to/iamthecarisma/hosting-a-maven-repository-on-github-site-maven-plugin-9ch",
+        site: "dev.to",
+        tags: "#github #java #maven #android",
+        date: "Jan 27 2020"
+    },
+    {
         title: "Managing Windows PFX certificates through PowerShell",
         link: "https://dev.to/iamthecarisma/managing-windows-pfx-certificates-through-powershell-3pj",
         site: "dev.to",
