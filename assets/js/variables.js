@@ -306,6 +306,45 @@ const AllProjects = [
                 icon_class: "fa fa-globe"
             }
         ]
+    },
+    {
+        name: "async-script-loader.js",
+        type: "script",
+        description: "Load a remote javascript file in the browser synchronously. Wait till loading complete with callback.",
+        techs: "#javascript",
+        main_url: "https://gist.github.com/Thecarisma/f1fac7988b19981980752cae9f66352a",
+        links: [
+            {
+                url: "https://gist.github.com/Thecarisma/f1fac7988b19981980752cae9f66352a",
+                icon_class: "fab fa-github"
+            }
+        ]
+    },
+    {
+        name: "ptarget.h",
+        type: "script",
+        description: "header for compiler and OS detection (portable C)",
+        techs: "#c #cpp",
+        main_url: "https://gist.github.com/Thecarisma/bee1c8b94866782f634f45246ad0421d",
+        links: [
+            {
+                url: "https://gist.github.com/Thecarisma/bee1c8b94866782f634f45246ad0421d",
+                icon_class: "fab fa-github"
+            }
+        ]
+    },
+    {
+        name: "device-enabler.bat",
+        type: "script",
+        description: "Use brute-force method to enable a device when disabled by device control programs (e.g anti-virus). ",
+        techs: "#batch",
+        main_url: "https://gist.github.com/Thecarisma/b96d8cb6518a176c64b3a9d82d52ab67",
+        links: [
+            {
+                url: "https://gist.github.com/Thecarisma/b96d8cb6518a176c64b3a9d82d52ab67",
+                icon_class: "fab fa-github"
+            }
+        ]
     }
 ]
 
