@@ -42,6 +42,23 @@ const AllProjects = [
         ]
     },
     {
+        name: "laner",
+        description: "Local Area Network Operations, listen, detect, connect, byte transfer, e.t.c.",
+        techs: "#java #maven",
+        type: "library",
+        main_url: "https://github.com/Thecarisma/laner",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/laner",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://thecarisma.github.io/laner",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
         name: "libo-types",
         description: "A library of generic, complex data types and structures for C",
         techs: "#c #c++ #makefile",
