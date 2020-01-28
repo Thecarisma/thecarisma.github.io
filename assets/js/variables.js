@@ -276,6 +276,36 @@ const AllProjects = [
                 icon_class: "fa fa-globe"
             }
         ]
+    },
+    {
+        name: "Power Text",
+        type: "desktop application",
+        description: "A simple yet intelligent text editor. Power Text support syntax highlighting for over 15 programming language. WACK",
+        techs: "#java #xml #lex",
+        main_url: "https://sourceforge.net/projects/power-text/",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/powertext",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://sourceforge.net/projects/power-text/",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "Easy File Shift",
+        type: "desktop application",
+        description: "Manipulate your files the way you want, copying, moving file with different methods, hide files, view hidden file in a folder and un-hide file, search, renam, delete",
+        techs: "#java #regedit",
+        main_url: "https://sourceforge.net/projects/easy-file-shift/",
+        links: [
+            {
+                url: "https://sourceforge.net/projects/easy-file-shift/",
+                icon_class: "fa fa-globe"
+            }
+        ]
     }
 ]
 
