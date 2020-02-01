@@ -93,31 +93,15 @@ const AllProjects = [
         ]
     },
     {
-        name: "language-colors",
-        type: "library",
-        description: "GitHub programming languages color codes in CSS, NodeJS and Javascript.",
-        techs: "#css #javascript #nodejs #powershell",
-        main_url: "https://quickutils.github.io/language-colors/",
+        name: "monitorpod.bat",
+        type: "script",
+        description: "A batch script to monitor a kubernetes pod status, it shows windows toast notification when the pod status changes. Change the NAME to your pod name.",
+        techs: "#batch",
+        main_url: "https://gist.github.com/Thecarisma/7f611cbca629c6004295b7c19ee1d4e0",
         links: [
             {
-                url: "https://github.com/quickutils/language-colors",
+                url: "https://gist.github.com/Thecarisma/7f611cbca629c6004295b7c19ee1d4e0",
                 icon_class: "fab fa-github"
-            },
-            {
-                url: "https://quickutils.github.io/language-colors/",
-                icon_class: "fa fa-globe"
-            },
-            {
-                url: "https://quickutils.github.io/language-colors/language-colors.js",
-                icon_class: "fab fa-js"
-            },
-            {
-                url: "https://www.npmjs.com/package/language-colors",
-                icon_class: "fab fa-npm"
-            },
-            {
-                url: "https://quickutils.github.io/language-colors/language-colors.css",
-                icon_class: "fab fa-css3"
             }
         ]
     },
@@ -223,6 +207,35 @@ const AllProjects = [
             {
                 url: "https://thedarkprojects.github.io/devjammer/",
                 icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "language-colors",
+        type: "library",
+        description: "GitHub programming languages color codes in CSS, NodeJS and Javascript.",
+        techs: "#css #javascript #nodejs #powershell",
+        main_url: "https://quickutils.github.io/language-colors/",
+        links: [
+            {
+                url: "https://github.com/quickutils/language-colors",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://quickutils.github.io/language-colors/",
+                icon_class: "fa fa-globe"
+            },
+            {
+                url: "https://quickutils.github.io/language-colors/language-colors.js",
+                icon_class: "fab fa-js"
+            },
+            {
+                url: "https://www.npmjs.com/package/language-colors",
+                icon_class: "fab fa-npm"
+            },
+            {
+                url: "https://quickutils.github.io/language-colors/language-colors.css",
+                icon_class: "fab fa-css3"
             }
         ]
     },
@@ -346,6 +359,19 @@ const AllProjects = [
         links: [
             {
                 url: "https://gist.github.com/Thecarisma/bee1c8b94866782f634f45246ad0421d",
+                icon_class: "fab fa-github"
+            }
+        ]
+    },
+    {
+        name: "sendwintoast.ps1",
+        type: "script",
+        description: 'A Powershell script to send Windows Toast notification. Usage: sendwintoast.ps1 "Your Title" "Your Message" Info',
+        techs: "#powershell",
+        main_url: "https://gist.github.com/Thecarisma/0eb8a1e7eb64ac6762eb83eb116a4da4",
+        links: [
+            {
+                url: "https://gist.github.com/Thecarisma/0eb8a1e7eb64ac6762eb83eb116a4da4",
                 icon_class: "fab fa-github"
             }
         ]
