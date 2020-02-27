@@ -43,17 +43,17 @@ const AllProjects = [
     },
     {
         name: "laner",
-        description: "Local Area Network Operations, listen, detect, connect, byte transfer, e.t.c.",
+        description: "Fast, minimalist web framework for Java. With LAN operations, listen, detect, monitor.",
         techs: "#java #maven",
         type: "library",
-        main_url: "https://github.com/Thecarisma/laner",
+        main_url: "https://github.com/bytesaim/laner",
         links: [
             {
-                url: "https://github.com/Thecarisma/laner",
+                url: "https://github.com/bytesaim/laner",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://thecarisma.github.io/laner",
+                url: "https://bytesaim.github.io/laner",
                 icon_class: "fa fa-globe"
             }
         ]
@@ -106,34 +106,34 @@ const AllProjects = [
         ]
     },
     {
-        name: "key-value-db",
+        name: "konfiger",
         type: "library",
-        description: "Light weight package to quickly and easily manage, load, update and save key-value type database. Implemented in multiple languages.",
+        description: "Light weight package to manage key value based configuration and data files. Implemented in multiple languages.",
         techs: "#java #python #csharp #c #nodejs #simple #go #nodejs",
-        main_url: "https://keyvaluedb.github.io/",
+        main_url: "https://konfiger.github.io/",
         links: [
             {
-                url: "https://github.com/keyvaluedb",
+                url: "https://github.com/konfiger",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://keyvaluedb.github.io/",
+                url: "https://konfiger.github.io/",
                 icon_class: "fa fa-globe"
             },
             {
-                url: "https://github.com/keyvaluedb/key-value-db-c",
+                url: "https://github.com/konfiger/konfiger-c",
                 icon_class: "devicon-c-plain"
             },
             {
-                url: "https://www.npmjs.com/package/@thecarisma/key-value-db",
+                url: "https://www.npmjs.com/package/@thecarisma/konfiger",
                 icon_class: "fab fa-npm"
             },
             {
-                url: "https://github.com/keyvaluedb/key-value-db-java",
+                url: "https://github.com/konfiger/konfiger-java",
                 icon_class: "fab fa-java"
             },
             {
-                url: "https://pypi.org/project/key-value-db/",
+                url: "https://pypi.org/project/konfiger/",
                 icon_class: "fab fa-python"
             },
             {
