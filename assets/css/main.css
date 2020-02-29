@@ -20,6 +20,14 @@ i {
     font-size: 20px !important;
 }
 
+.code-block {
+    background: white;
+    color: gray;
+    padding: 20px;
+    margin-top: 5px;
+    margin-right: 150px;
+}
+
 .sidenav {
     height: 100%;
     position: fixed;
@@ -97,6 +105,12 @@ i {
     font-size: 15px;
     cursor: pointer;
     text-decoration: underline;
+}
+
+#Home .left-side p .s3 {
+    font-size: 20px;
+    line-height: 1px;
+    display:block
 }
 
 #Home .right-side {
