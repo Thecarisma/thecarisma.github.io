@@ -125,7 +125,7 @@ const AllProjects = [
                 icon_class: "devicon-c-plain"
             },
             {
-                url: "https://www.npmjs.com/package/@thecarisma/konfiger",
+                url: "https://www.npmjs.com/package/konfiger",
                 icon_class: "fab fa-npm"
             },
             {
@@ -137,7 +137,7 @@ const AllProjects = [
                 icon_class: "fab fa-python"
             },
             {
-                url: "https://www.nuget.org/packages/KeyValueDB/",
+                url: "https://www.nuget.org/packages/konfiger/",
                 icon_class: "devicon-csharp-plain"
             }
         ]
