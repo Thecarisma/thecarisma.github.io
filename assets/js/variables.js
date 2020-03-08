@@ -125,7 +125,7 @@ const AllProjects = [
                 icon_class: "devicon-c-plain"
             },
             {
-                url: "https://www.npmjs.com/package/@thecarisma/konfiger",
+                url: "https://www.npmjs.com/package/konfiger",
                 icon_class: "fab fa-npm"
             },
             {
