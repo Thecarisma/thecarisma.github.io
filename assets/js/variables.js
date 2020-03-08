@@ -137,25 +137,29 @@ const AllProjects = [
                 icon_class: "fab fa-python"
             },
             {
-                url: "https://www.nuget.org/packages/KeyValueDB/",
+                url: "https://www.nuget.org/packages/konfiger/",
                 icon_class: "devicon-csharp-plain"
             }
         ]
     },
     {
-        name: "repo-page-scripts",
-        type: "web",
-        description: "Static website generator for GitHub repository, profile, and organisation using a single script. Just drop index.html and deploy.",
-        techs: "#html #css #javascript #batch",
-        main_url: "https://quickutils.github.io/repo-page-scripts/",
+        name: "milkish",
+        type: "library",
+        description: "A milkish looking sphinx theme.",
+        techs: "#python",
+        main_url: "https://thecarisma.github.io/milkish",
         links: [
             {
-                url: "https://github.com/quickutils/repo-page-scripts",
+                url: "https://github.com/Thecarisma/milkish",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://quickutils.github.io/repo-page-scripts/",
+                url: "https://thecarisma.github.io/milkish",
                 icon_class: "fa fa-globe"
+            },
+            {
+                url: "https://pypi.org/project/milkish/",
+                icon_class: "fab fa-python"
             }
         ]
     },
@@ -164,7 +168,7 @@ const AllProjects = [
         type: "library",
         description: "Send system notification on various platforms.",
         techs: "#c++ #makefile #c #bash",
-        main_url: "https://github.com/liboprojects/libo-notify",
+        main_url: "https://liboprojects.github.io/libo-notify",
         links: [
             {
                 url: "https://github.com/liboprojects/libo-notify",
@@ -364,15 +368,19 @@ const AllProjects = [
         ]
     },
     {
-        name: "sendwintoast.ps1",
-        type: "script",
-        description: 'A Powershell script to send Windows Toast notification. Usage: sendwintoast.ps1 "Your Title" "Your Message" Info',
-        techs: "#powershell",
-        main_url: "https://gist.github.com/Thecarisma/0eb8a1e7eb64ac6762eb83eb116a4da4",
+        name: "repo-page-scripts",
+        type: "web",
+        description: "Static website generator for GitHub repository, profile, and organisation using a single script. Just drop index.html and deploy.",
+        techs: "#html #css #javascript #batch",
+        main_url: "https://quickutils.github.io/repo-page-scripts/",
         links: [
             {
-                url: "https://gist.github.com/Thecarisma/0eb8a1e7eb64ac6762eb83eb116a4da4",
+                url: "https://github.com/quickutils/repo-page-scripts",
                 icon_class: "fab fa-github"
+            },
+            {
+                url: "https://quickutils.github.io/repo-page-scripts/",
+                icon_class: "fa fa-globe"
             }
         ]
     },
