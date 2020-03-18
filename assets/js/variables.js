@@ -59,35 +59,35 @@ const AllProjects = [
         ]
     },
     {
-        name: "libo-types",
+        name: "libopen-types",
         description: "A library of generic, complex data types and structures for C",
         techs: "#c #c++ #makefile",
         type: "library",
-        main_url: "https://github.com/liboprojects/libo-types",
+        main_url: "https://github.com/libopenprojects/libopen-types",
         links: [
             {
-                url: "https://github.com/liboprojects/libo-types",
+                url: "https://github.com/libopenprojects/libopen-types",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://liboprojects.github.io/libo-types/",
+                url: "https://libopenprojects.github.io/libopen-types/",
                 icon_class: "fa fa-globe"
             }
         ]
     },
     {
-        name: "libo-processes",
+        name: "libopen-processes",
         type: "library",
         description: "Get list of running processes and listen to process life cycle with callback",
         techs: "#c++ #makefile",
-        main_url: "https://liboprojects.github.io/libo-processes",
+        main_url: "https://libopenprojects.github.io/libopen-processes",
         links: [
             {
-                url: "https://github.com/liboprojects/libo-processes",
+                url: "https://github.com/libopenprojects/libo-processes",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://liboprojects.github.io/libo-processes",
+                url: "https://libopenprojects.github.io/libo-processes",
                 icon_class: "fa fa-globe"
             }
         ]
@@ -168,14 +168,14 @@ const AllProjects = [
         type: "library",
         description: "Send system notification on various platforms.",
         techs: "#c++ #makefile #c #bash",
-        main_url: "https://liboprojects.github.io/libo-notify",
+        main_url: "https://libopenprojects.github.io/libo-notify",
         links: [
             {
-                url: "https://github.com/liboprojects/libo-notify",
+                url: "https://github.com/libopenprojects/libo-notify",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://liboprojects.github.io/libo-notify",
+                url: "https://libopenprojects.github.io/libo-notify",
                 icon_class: "fa fa-globe"
             }
         ]
@@ -248,7 +248,7 @@ const AllProjects = [
         type: "library",
         description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
         techs: "#php #wordpress #javascript",
-        main_url: "https://github.com/liboprojects/libo-notify",
+        main_url: "https://github.com/libopenprojects/libo-notify",
         links: [
             {
                 url: "https://github.com/Thecarisma/audio-tube",
