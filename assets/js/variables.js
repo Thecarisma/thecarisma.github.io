@@ -229,7 +229,7 @@ const AllProjects = [
     {
         name: "301s",
         type: "other",
-        description: "A batch script to monitor a kubernetes pod status, it shows windows toast notification when the pod status changes. Change the NAME to your pod name.",
+        description: "A static URL shortening and link management project.",
         techs: "#javascript #html #css",
         main_url: "https://301s.github.io/",
         links: [
