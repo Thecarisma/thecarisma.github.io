@@ -227,6 +227,23 @@ const AllProjects = [
         ]
     },
     {
+        name: "301s",
+        type: "other",
+        description: "A batch script to monitor a kubernetes pod status, it shows windows toast notification when the pod status changes. Change the NAME to your pod name.",
+        techs: "#javascript #html #css",
+        main_url: "https://301s.github.io/",
+        links: [
+            {
+                url: "https://github.com/301s/",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://301s.github.io/",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
         name: "audio-tube",
         type: "library",
         description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
