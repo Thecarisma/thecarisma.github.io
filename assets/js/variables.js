@@ -83,11 +83,11 @@ const AllProjects = [
         main_url: "https://libopenprojects.github.io/libopen-processes",
         links: [
             {
-                url: "https://github.com/libopenprojects/libo-processes",
+                url: "https://github.com/libopenprojects/libopen-processes",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://libopenprojects.github.io/libo-processes",
+                url: "https://libopenprojects.github.io/libopen-processes",
                 icon_class: "fa fa-globe"
             }
         ]
@@ -143,56 +143,39 @@ const AllProjects = [
         ]
     },
     {
-        name: "milkish",
+        name: "themata",
         type: "library",
-        description: "A milkish looking sphinx theme.",
+        description: "Set of Highly customizable sphinx themes. milkish, fandango, clear and fluid.",
         techs: "#python",
-        main_url: "https://thecarisma.github.io/milkish",
+        main_url: "https://thecarisma.github.io/themata",
         links: [
             {
-                url: "https://github.com/Thecarisma/milkish",
+                url: "https://github.com/Thecarisma/themata",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://thecarisma.github.io/milkish",
+                url: "https://thecarisma.github.io/themata",
                 icon_class: "fa fa-globe"
             },
             {
-                url: "https://pypi.org/project/milkish/",
+                url: "https://pypi.org/project/themata/",
                 icon_class: "fab fa-python"
             }
         ]
     },
     {
-        name: "libo-notify",
+        name: "libopen-notify",
         type: "library",
         description: "Send system notification on various platforms.",
         techs: "#c++ #makefile #c #bash",
-        main_url: "https://libopenprojects.github.io/libo-notify",
+        main_url: "https://libopenprojects.github.io/libopen-notify",
         links: [
             {
-                url: "https://github.com/libopenprojects/libo-notify",
+                url: "https://github.com/libopenprojects/libopen-notify",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://libopenprojects.github.io/libo-notify",
-                icon_class: "fa fa-globe"
-            }
-        ]
-    },
-    {
-        name: "clifilemaster.js",
-        type: "library",
-        description: "A command-line file picker for nodejs with promise support.",
-        techs: "#c++ #makefile #c #bash",
-        main_url: "https://github.com/Thecarisma/clifilemaster.js",
-        links: [
-            {
-                url: "https://github.com/Thecarisma/clifilemaster.js",
-                icon_class: "fab fa-github"
-            },
-            {
-                url: "https://github.com/Thecarisma/clifilemaster.js",
+                url: "https://libopenprojects.github.io/libopen-notify",
                 icon_class: "fa fa-globe"
             }
         ]
@@ -219,7 +202,7 @@ const AllProjects = [
         type: "library",
         description: "GitHub programming languages color codes in CSS, NodeJS and Javascript.",
         techs: "#css #javascript #nodejs #powershell",
-        main_url: "https://quickutils.github.io/language-colors/",
+        main_url: "https://www.npmjs.com/package/language-colors",
         links: [
             {
                 url: "https://github.com/quickutils/language-colors",
@@ -248,7 +231,7 @@ const AllProjects = [
         type: "library",
         description: "A plain script and wordpress plugin to embed a youtube, vimeo and other videos as audio on your website or wordpress site",
         techs: "#php #wordpress #javascript",
-        main_url: "https://github.com/libopenprojects/libo-notify",
+        main_url: "https://github.com/libopenprojects/audio-tube",
         links: [
             {
                 url: "https://github.com/Thecarisma/audio-tube",
@@ -342,6 +325,23 @@ const AllProjects = [
         ]
     },
     {
+        name: "clifilemaster.js",
+        type: "library",
+        description: "A command-line file picker for nodejs with promise support.",
+        techs: "#c++ #makefile #c #bash",
+        main_url: "https://github.com/Thecarisma/clifilemaster.js",
+        links: [
+            {
+                url: "https://github.com/Thecarisma/clifilemaster.js",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://github.com/Thecarisma/clifilemaster.js",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
         name: "async-script-loader.js",
         type: "script",
         description: "Load a remote javascript file in the browser synchronously. Wait till loading complete with callback.",
@@ -398,10 +398,6 @@ const AllProjects = [
         ]
     }
 ]
-
-
-
-
 
 
 
