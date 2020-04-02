@@ -1,24 +1,34 @@
-#Requires -RunAsAdministrator
-#Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('http://localhost:8020/remoterun.ps1'))
+#-Requires -RunAsAdministrator
+#Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://thecarisma.github.io/installx.ps1'))
 
 $AppName = "Cronux"
-$Version = "2.0"
+$Version = & "$PSScriptRoot\versionx.ps1"
 $AppArchiveUrl = "https://github.com/Thecarisma/Cronux/archive/master.zip"
-$InstallationPath = $env:ProgramData + "\$AppName\"
+$InstallationPath = & "$PSScriptRoot\installfolderx.ps1"
 $PathEnvironment = "User"
 $BeforeScript = ""
 $AfterScript = "
-    cp ./Cronux-master/commands/extractx.ps1 $InstallationPath
-    cp ./Cronux-master/commands/buildcronux.ps1 $InstallationPath
-    cp ./Cronux-master/commands/batforps.ps1 $InstallationPath
-    cp ./Cronux-master/commands/wrapcommand.ps1 $InstallationPath
+    cp ./Cronux-master/commands/filefolder/extractx.ps1 $InstallationPath
+    cp ./Cronux-master/commands/cronux/buildcronux.ps1 $InstallationPath
+    cp ./Cronux-master/commands/conversions/batforps.ps1 $InstallationPath
+    cp ./Cronux-master/commands/conversions/wrapcommand.ps1 $InstallationPath
     cp ./Cronux-master/*.bat $InstallationPath
     cp ./Cronux-master/*.sh $InstallationPath
     cp ./Cronux-master/LICENSE $InstallationPath
     powershell -noprofile -executionpolicy bypass -file ./extractx.ps1 ./ExportList.txt
     powershell -noprofile -executionpolicy bypass -file ./buildcronux.ps1  ./ ./
-    Remove-Item -path Cronux-master -recurse
+    Remove-Item -path ./Cronux-master -recurse
 "
+$CommandsFolder = $PSScriptRoot
+If ( -not [System.IO.File]::Exists("$CommandsFolder\Cronux.ps1")) {
+    $CommandsFolder = "$PSScriptRoot\..\"
+    If ( -not [System.IO.File]::Exists("$CommandsFolder\Cronux.ps1")) {
+        $CommandsFolder = "$PSScriptRoot\..\..\"
+        If ( -not [System.IO.File]::Exists("$CommandsFolder\Cronux.ps1")) {
+            $CommandsFolder = "$PSScriptRoot\..\..\..\"
+        }
+    }
+}
 
 $AddPath = $true
 
@@ -63,24 +73,52 @@ Function Add-Folder-To-Path {
     [Environment]::SetEnvironmentVariable("Path", "$NewPath$folder", "$PathEnvironment")
 }
 
-"Preparing to install $AppName $Version"
-Check-Create-Directory $TEMP
-If ($BeforeScript -ne "") {
-    "Executing the BeforeScript..."
-    iex "$BeforeScript"
+Function Iterate-Folder {
+    Param([string]$foldername)
+    
+    Get-ChildItem $foldername | Foreach-Object {
+        If ( -not $_.PSIsContainer) {
+            If ( -not $_.Name.EndsWith(".ps1")) {
+                Return
+            }
+            cp $_.FullName $InstallationPath
+        } Else {
+            Iterate-Folder $_.FullName
+        }
+    }
 }
-"Downloading the program archive..."
-Download-App-Archive
-Check-Create-Directory $InstallationPath
-"Installing $AppName $Version in $InstallationPath"
-Extract-App-Archive "$TEMP\installx_package_.zip" "$InstallationPath"
+
+"Preparing to install $AppName $Version"
+If (-not [System.IO.File]::Exists("$PSScriptRoot/../net/ipof.ps1")) {
+    Check-Create-Directory $TEMP
+    If ($BeforeScript -ne "") {
+        "Executing the BeforeScript..."
+        iex "$BeforeScript"
+    }
+    "Downloading the program archive..."
+    Download-App-Archive
+    Check-Create-Directory $InstallationPath
+    "Installing $AppName $Version in $InstallationPath"
+    Extract-App-Archive "$TEMP\installx_package_.zip" "$InstallationPath"
+    Set-Location -Path $InstallationPath
+    If ($AfterScript -ne "") {
+        "Executing the AfterScript..."
+        iex "$AfterScript"
+    }
+    "Installtion completes."
+} else {
+    Check-Create-Directory $InstallationPath
+    Iterate-Folder $CommandsFolder
+    Set-Location -Path $InstallationPath
+    powershell -noprofile -executionpolicy bypass -file ./extractx.ps1 ./ExportList.txt
+    powershell -noprofile -executionpolicy bypass -file ./buildcronux.ps1  ./ ./
+    If ([System.IO.Directory]::Exists("./Cronux-master")) {
+        Remove-Item -path "./Cronux-master" -recurse
+    }
+}
+
 If ($AddPath -eq $true) { 
     "Adding $InstallationPath to $PathEnvironment Path variable"
     Add-Folder-To-Path "$InstallationPath" 
 }
-Set-Location -Path $InstallationPath
-If ($AfterScript -ne "") {
-    "Executing the AfterScript..."
-    iex "$AfterScript"
-}
-"Installtion completes."
+
