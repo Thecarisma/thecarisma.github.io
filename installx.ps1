@@ -96,6 +96,7 @@ Function Iterate-Folder {
 
 "Preparing to install $AppName $Version"
 If ([System.IO.Directory]::Exists("$InstallationPath")) {
+    "We are here yo"
     Remove-Item -path "$InstallationPath" -Recurse
 }
 If (-not [System.IO.File]::Exists("$PSScriptRoot/../net/ipof.ps1")) {
