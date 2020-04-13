@@ -8,16 +8,14 @@ $InstallationPath = $env:ProgramData + "\$AppName\"
 $PathEnvironment = "User"
 $BeforeScript = ""
 $AfterScript = "
-    cp ./Cronux-master/commands/extractx.ps1 $InstallationPath
-    cp ./Cronux-master/commands/buildcronux.ps1 $InstallationPath
-    cp ./Cronux-master/commands/batforps.ps1 $InstallationPath
-    cp ./Cronux-master/commands/wrapcommand.ps1 $InstallationPath
-    cp ./Cronux-master/*.bat $InstallationPath
-    cp ./Cronux-master/*.sh $InstallationPath
-    cp ./Cronux-master/LICENSE $InstallationPath
+    Move-Item -Path ./Cronux-master/commands/archive/*.ps1 -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/commands/archive/*.ps1 -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/*.bat -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/*.sh -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/LICENSE -Destination $InstallationPath -Force
     powershell -noprofile -executionpolicy bypass -file ./extractx.ps1 ./ExportList.txt
     powershell -noprofile -executionpolicy bypass -file ./buildcronux.ps1  ./ ./
-    Remove-Item -path Cronux-master -recurse
+    Remove-Item -path ./Cronux-master -Recurse
 "
 
 $AddPath = $true
