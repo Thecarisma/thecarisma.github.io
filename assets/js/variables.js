@@ -26,10 +26,10 @@ const AllBlogPosts = [
 const AllProjects = [
     {
         name: "Cronux",
-        description: "Handy, hacky commands to perform simple and complex task in Windows and Linux CLI",
+        description: "Handy commands to perform simple and complex tasks with Powershell",
         techs: "#powershell #batch #bash",
         type: "cli application",
-        main_url: "https://github.com/Thecarisma/Cronux",
+        main_url: "https://thecarisma.github.io/Cronux/index.html",
         links: [
             {
                 url: "https://github.com/Thecarisma/Cronux",
@@ -93,15 +93,23 @@ const AllProjects = [
         ]
     },
     {
-        name: "monitorpod.bat",
-        type: "script",
-        description: "A batch script to monitor a kubernetes pod status, it shows windows toast notification when the pod status changes. Change the NAME to your pod name.",
-        techs: "#batch",
-        main_url: "https://gist.github.com/Thecarisma/7f611cbca629c6004295b7c19ee1d4e0",
+        name: "themata",
+        type: "library",
+        description: "Set of Highly customizable sphinx themes. milkish, fandango, clear and fluid.",
+        techs: "#python",
+        main_url: "https://thecarisma.github.io/themata",
         links: [
             {
-                url: "https://gist.github.com/Thecarisma/7f611cbca629c6004295b7c19ee1d4e0",
+                url: "https://github.com/Thecarisma/themata",
                 icon_class: "fab fa-github"
+            },
+            {
+                url: "https://thecarisma.github.io/themata",
+                icon_class: "fa fa-globe"
+            },
+            {
+                url: "https://pypi.org/project/themata/",
+                icon_class: "fab fa-python"
             }
         ]
     },
@@ -139,27 +147,6 @@ const AllProjects = [
             {
                 url: "https://www.nuget.org/packages/konfiger/",
                 icon_class: "devicon-csharp-plain"
-            }
-        ]
-    },
-    {
-        name: "themata",
-        type: "library",
-        description: "Set of Highly customizable sphinx themes. milkish, fandango, clear and fluid.",
-        techs: "#python",
-        main_url: "https://thecarisma.github.io/themata",
-        links: [
-            {
-                url: "https://github.com/Thecarisma/themata",
-                icon_class: "fab fa-github"
-            },
-            {
-                url: "https://thecarisma.github.io/themata",
-                icon_class: "fa fa-globe"
-            },
-            {
-                url: "https://pypi.org/project/themata/",
-                icon_class: "fab fa-python"
             }
         ]
     },
@@ -223,6 +210,19 @@ const AllProjects = [
             {
                 url: "https://quickutils.github.io/language-colors/language-colors.css",
                 icon_class: "fab fa-css3"
+            }
+        ]
+    },
+    {
+        name: "monitorpod.bat",
+        type: "script",
+        description: "A batch script to monitor a kubernetes pod status, it shows windows toast notification when the pod status changes. Change the NAME to your pod name.",
+        techs: "#batch",
+        main_url: "https://gist.github.com/Thecarisma/7f611cbca629c6004295b7c19ee1d4e0",
+        links: [
+            {
+                url: "https://gist.github.com/Thecarisma/7f611cbca629c6004295b7c19ee1d4e0",
+                icon_class: "fab fa-github"
             }
         ]
     },
