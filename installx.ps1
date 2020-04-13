@@ -87,7 +87,7 @@ Function Iterate-Folder {
             If ( -not $_.Name.EndsWith(".ps1")) {
                 Return
             }
-            cp $_.FullName $InstallationPath
+            Copy-Item -Path $_.FullName -Destination $InstallationPath -Force
         } Else {
             Iterate-Folder $_.FullName
         }
@@ -95,6 +95,9 @@ Function Iterate-Folder {
 }
 
 "Preparing to install $AppName $Version"
+If ([System.IO.Directory]::Exists("$InstallationPath")) {
+    Remove-Item -path "$InstallationPath" -Recurse
+}
 If (-not [System.IO.File]::Exists("$PSScriptRoot/../net/ipof.ps1")) {
     Check-Create-Directory $TEMP
     If ($BeforeScript -ne "") {
