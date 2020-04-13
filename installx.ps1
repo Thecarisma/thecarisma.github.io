@@ -18,6 +18,7 @@ $BeforeScript = ""
 $AfterScript = "
     Move-Item -Path ./Cronux-master/commands/archive/*.ps1 -Destination $InstallationPath -Force
     Move-Item -Path ./Cronux-master/commands/conversions/*.ps1 -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/commands/cronux/*.ps1 -Destination $InstallationPath -Force
     Move-Item -Path ./Cronux-master/*.bat -Destination $InstallationPath -Force
     Move-Item -Path ./Cronux-master/*.sh -Destination $InstallationPath -Force
     Move-Item -Path ./Cronux-master/LICENSE -Destination $InstallationPath -Force
@@ -96,7 +97,6 @@ Function Iterate-Folder {
 
 "Preparing to install $AppName $Version"
 If ([System.IO.Directory]::Exists("$InstallationPath")) {
-    "We are here yo"
     Remove-Item -path "$InstallationPath\*.ps1" -Recurse
     Remove-Item -path "$InstallationPath\*.bat" -Recurse
 }
