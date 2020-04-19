@@ -16,16 +16,15 @@ $InstallationPath = Install-Folder-X
 $PathEnvironment = "User"
 $BeforeScript = ""
 $AfterScript = "
-    cp ./Cronux-master/commands/archive/extractx.ps1 $InstallationPath
-    cp ./Cronux-master/commands/cronux/buildcronux.ps1 $InstallationPath
-    cp ./Cronux-master/commands/conversions/batforps.ps1 $InstallationPath
-    cp ./Cronux-master/commands/conversions/wrapcommand.ps1 $InstallationPath
-    cp ./Cronux-master/*.bat $InstallationPath
-    cp ./Cronux-master/*.sh $InstallationPath
-    cp ./Cronux-master/LICENSE $InstallationPath
+    Move-Item -Path ./Cronux-master/commands/archive/*.ps1 -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/commands/conversions/*.ps1 -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/commands/cronux/*.ps1 -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/*.bat -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/*.sh -Destination $InstallationPath -Force
+    Move-Item -Path ./Cronux-master/LICENSE -Destination $InstallationPath -Force
     powershell -noprofile -executionpolicy bypass -file ./extractx.ps1 ./ExportList.txt
     powershell -noprofile -executionpolicy bypass -file ./buildcronux.ps1  ./ ./
-    Remove-Item -path ./Cronux-master -recurse
+    Remove-Item -path ./Cronux-master -Recurse
 "
 $CommandsFolder = $PSScriptRoot
 If ( -not [System.IO.File]::Exists("$CommandsFolder\Cronux.ps1")) {
@@ -89,7 +88,7 @@ Function Iterate-Folder {
             If ( -not $_.Name.EndsWith(".ps1")) {
                 Return
             }
-            cp $_.FullName $InstallationPath
+            Copy-Item -Path $_.FullName -Destination $InstallationPath -Force
         } Else {
             Iterate-Folder $_.FullName
         }
@@ -97,6 +96,10 @@ Function Iterate-Folder {
 }
 
 "Preparing to install $AppName $Version"
+If ([System.IO.Directory]::Exists("$InstallationPath")) {
+    Remove-Item -path "$InstallationPath\*.ps1" -Recurse
+    Remove-Item -path "$InstallationPath\*.bat" -Recurse
+}
 If (-not [System.IO.File]::Exists("$PSScriptRoot/../net/ipof.ps1")) {
     Check-Create-Directory $TEMP
     If ($BeforeScript -ne "") {
@@ -129,4 +132,3 @@ If ($AddPath -eq $true) {
     "Adding $InstallationPath to $PathEnvironment Path variable"
     Add-Folder-To-Path "$InstallationPath" 
 }
-
