@@ -2,7 +2,7 @@
 <!-- azeezadewale98@gmail.com -->
 <!-- MIT License -->
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Hi I am Adewale Azeez, a software engineer">
@@ -16,7 +16,7 @@
 <body>
 	<div class="sidenav">
         <div class="top-sidenav">
-            <img class="icon" src="./image.png"/>
+            <img class="icon" src="./image.png" alt="thecarisma.github.com"/>
             <a onclick="openHome()"><i id="fa-home" class="fa fa-home"></i></a>
             <a onclick="openProjects()"><i id="fa-align-center" class="fa fa-align-center"></i></a>
             <a onclick="openBlog()" ><i id="fa-edit" class="fa fa-edit"></i></a>
@@ -94,9 +94,9 @@
             <div class="right-side">
                 <form action="https://api.staticforms.xyz/submit" method="post">
                     <input type="hidden" name="accessKey" value="8dc0525d-4503-42a3-a336-0e5d4545ba16"> <br/>
-                    <label for="email">Email Address</label><br/> <input type="text" name="email"> <br/><br/>
-                    <label for="name">What is your name?</label><br/> <input type="text" name="name"> <br/><br/>
-                    <label for="message">Your Enquiry</label><br/> <textarea name="message"></textarea> <br/>
+                    <label for="email">Email Address</label><br/> <input type="text" id="email" name="email" required> <br/><br/>
+                    <label for="name">What is your name?</label><br/> <input type="text" id="name" name="name" required> <br/><br/>
+                    <label for="message">Your Enquiry</label><br/> <textarea id="message" name="message" required></textarea> <br/>
                     <input type="hidden" name="redirectTo" value="https://thecarisma.github.io/"> <br/><br/>
                     <input class="submit" type="submit" value="Submit" />
                 </form>
