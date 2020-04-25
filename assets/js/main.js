@@ -87,7 +87,7 @@ function treatVariables() {
         var pHTML = `
                 <div class="project ${project.type.replace(' ', '-')}">
                     <a href="${project.main_url}"><span class="title">${project.name}</span></a><br/>
-                    <span class="project-type">${project.type}</span><br/>
+                    <!--<span class="project-type">${project.type}</span><br/>-->
                     <p class="description">
                     ${project.description}
                     </p>
@@ -104,6 +104,7 @@ function treatVariables() {
         
         document.getElementById("all-projects").innerHTML += pHTML;
     }
+    selectProjectType(document.getElementById("selected-project"), 'main-project');
 }
 
 
