@@ -25,10 +25,27 @@ const AllBlogPosts = [
 
 const AllProjects = [
     {
+        name: "libcester",
+        type: "main-project",
+        description: "A header only unit testing framework for C. ",
+        techs: "ANSI C",
+        main_url: "https://301s.github.io/?lc",
+        links: [
+            {
+                url: "https://github.com/exoticlibraries/libcester",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://301s.github.io/?lc",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
         name: "Cronux",
         description: "Handy commands to perform simple and complex tasks with Powershell",
-        techs: "#powershell #batch #bash",
-        type: "cli application",
+        techs: "Powershell, Batch, Bash",
+        type: "main-project",
         main_url: "https://thecarisma.github.io/Cronux/index.html",
         links: [
             {
@@ -44,8 +61,8 @@ const AllProjects = [
     {
         name: "laner",
         description: "Fast, minimalist web framework for Java. With LAN operations, listen, detect, monitor.",
-        techs: "#java #maven",
-        type: "library",
+        techs: "Java, Maven",
+        type: "main-project",
         main_url: "https://github.com/bytesaim/laner",
         links: [
             {
