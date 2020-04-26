@@ -132,9 +132,9 @@ const AllProjects = [
     },
     {
         name: "konfiger",
-        type: "library",
+        type: "main-project",
         description: "Light weight package to manage key value based configuration and data files. Implemented in multiple languages.",
-        techs: "#java #python #csharp #c #nodejs #simple #go #nodejs",
+        techs: "Java, Python, CSharp, ANSI C, NodeJS, Go, Elixir",
         main_url: "https://konfiger.github.io/",
         links: [
             {
