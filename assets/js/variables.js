@@ -27,16 +27,16 @@ const AllProjects = [
     {
         name: "libcester",
         type: "main-project",
-        description: "A header only unit testing framework for C. ",
+        description: "A robust header only unit testing framework for C programming language. Support function mocking, memory leak detection, segfault recovery.",
         techs: "ANSI C",
-        main_url: "https://301s.github.io/?lc",
+        main_url: "https://exoticlibraries.github.io/libcester",
         links: [
             {
                 url: "https://github.com/exoticlibraries/libcester",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://301s.github.io/?lc",
+                url: "https://exoticlibraries.github.io/libcester",
                 icon_class: "fa fa-globe"
             }
         ]
