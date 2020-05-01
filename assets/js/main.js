@@ -67,7 +67,7 @@ function treatVariables() {
     //blog posts
     var count = 0;
     for (var blog of AllBlogPosts) {
-        //on 5 stop for home
+        //on 4 stop for home
         var blogHTML = `
                 <div>
                     <a href="${blog.link}">${blog.title}</a><br/>
@@ -76,14 +76,14 @@ function treatVariables() {
                 </div>
         `;
         
-        if (count < 5) { document.getElementById("featured-blog-posts").innerHTML += blogHTML; }
+        if (count < 4) { document.getElementById("featured-blog-posts").innerHTML += blogHTML; }
         document.getElementById("all-posts").innerHTML += blogHTML;
         count++;
     }
     
     //projects
     for (var project of AllProjects) {
-        //on 5 stop for home
+        //on 4 stop for home
         var pHTML = `
                 <div class="project ${project.type.replace(' ', '-')}">
                     <a href="${project.main_url}"><span class="title">${project.name}</span></a><br/>
