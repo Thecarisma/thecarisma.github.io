@@ -4,22 +4,29 @@ const AllBlogPosts = [
         title: "Hosting a maven repository on Github: site-maven-plugin",
         link: "https://dev.to/iamthecarisma/hosting-a-maven-repository-on-github-site-maven-plugin-9ch",
         site: "dev.to",
-        tags: "#github #java #maven #android",
-        date: "Jan 27 2020"
+        tags: "Github, Java, Maven, Android",
+        date: "Jan 27, 2020"
     },
     {
         title: "Managing Windows PFX certificates through PowerShell",
         link: "https://dev.to/iamthecarisma/managing-windows-pfx-certificates-through-powershell-3pj",
         site: "dev.to",
-        tags: "#powershell #windows #system #cli",
-        date: "Jan 17 2020"
+        tags: "Powershell, Windows, System, CLI",
+        date: "Jan 17, 2020"
     },
     {
         title: "Enabling and disabling USB Disk Drive using C#",
         link: "https://dev.to/iamthecarisma/enabling-and-disabling-usb-disk-drive-using-c-4dg5",
         site: "dev.to",
-        tags: "#csharp #dotnet #windows #devmgmt",
-        date: "Dec 4 2019"
+        tags: "Csharp, .NET, Windows, Devmgmt",
+        date: "Dec 4, 2019"
+    },
+    {
+        title: "How to get your lost keystore password or alias",
+        link: "https://www.youtube.com/watch?v=4jfDwXa1h00",
+        site: "Youtube",
+        tags: "Youtube Video, Android, Java",
+        date: "Apr 20, 2017"
     }
 ]
 
@@ -27,7 +34,7 @@ const AllProjects = [
     {
         name: "libcester",
         type: "main-project",
-        description: "A robust header only unit testing framework for C programming language. Support function mocking, memory leak detection, segfault recovery.",
+        description: "A robust header only unit testing framework for C programming language. Support function mocking, memory leak detection, crash report.",
         techs: "ANSI C",
         main_url: "https://exoticlibraries.github.io/libcester",
         links: [
