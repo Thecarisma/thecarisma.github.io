@@ -171,11 +171,10 @@ i {
 .project {
     font-size: 20px;
     margin-top: 40px;
-    margin-right: 10px;
+    margin-right: 40px;
     width: 400px;
     max-width: 450px;
     display: none;
-    margin-left: 15px;
 }
 
 .project a {
