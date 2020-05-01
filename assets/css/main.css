@@ -175,6 +175,7 @@ i {
     width: 400px;
     max-width: 450px;
     display: none;
+    margin-left: 15px;
 }
 
 .project a {
