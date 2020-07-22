@@ -93,42 +93,28 @@ i {
 
 #Home {
     display: none;
-}
-
-#Home .left-side {
-    width: 50%;
-    float: left;
-    height: 100%;
-    position: fixed;
-}
-
-#Home .left-side p {
-    padding: 10%;
+    padding: 5%;
     font-size: 1.1em;
 }
 
-#Home .left-side p .s1 {
+#Home p {
+    max-width: 50%;
+}
+
+@media (max-width:700px){
+    #Home p {
+        max-width: 100%;
+    }
+}
+
+#Home p .s1 {
     font-size: 20px;
 }
 
-#Home .left-side p .s2 {
+#Home .s2 {
     font-size: 1em;
     cursor: pointer;
     text-decoration: underline;
-}
-
-#Home .left-side p .s3 {
-    font-size: 20px;
-    line-height: 1px;
-    display:block;
-}
-
-#Home .right-side {
-    padding-top: 8%;
-    width: 50%;
-    float: right;
-    height: 100%;
-    font-size: 30px;
 }
 
 .right-side div {
