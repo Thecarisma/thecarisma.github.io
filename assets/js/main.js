@@ -105,7 +105,7 @@ function treatVariables() {
         //if (count < 4) { document.getElementById("featured-projects").innerHTML += pHTML; }
         document.getElementById("all-projects").innerHTML += pHTML;
     }
-    selectProjectType(document.getElementById("selected-project"), 'main-project');
+    //selectProjectType(document.getElementById("selected-project"), 'main-project');
 }
 
 
