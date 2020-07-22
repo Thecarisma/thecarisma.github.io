@@ -76,7 +76,7 @@ function treatVariables() {
                 </div>
         `;
         
-        if (count < 4) { document.getElementById("featured-blog-posts").innerHTML += blogHTML; }
+        //if (count < 4) { document.getElementById("featured-blog-posts").innerHTML += blogHTML; }
         document.getElementById("all-posts").innerHTML += blogHTML;
         count++;
     }
@@ -102,6 +102,7 @@ function treatVariables() {
                 </div>
         `;
         
+        //if (count < 4) { document.getElementById("featured-projects").innerHTML += pHTML; }
         document.getElementById("all-projects").innerHTML += pHTML;
     }
     selectProjectType(document.getElementById("selected-project"), 'main-project');
