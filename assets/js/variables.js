@@ -49,6 +49,40 @@ const AllProjects = [
         ]
     },
     {
+        name: "objutils",
+        type: "library",
+        description: "Copy Java Object fields from multiple sources into a target with option for greater value. Ignores null fields. Most useful for model update with PATCH method + other Object Utils.",
+        techs: "#java #maven",
+        main_url: "https://github.com/thehackersdeck/objutils",
+        links: [
+            {
+                url: "https://github.com/thehackersdeck/objutils",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://thehackersdeck.github.io/objutils/",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
+        name: "libmetaref",
+        type: "library",
+        description: "Reflection for C Struct. Runtime introspection and intercession for struct fields, supports struct and field annotation.",
+        techs: "#c99 #makefile",
+        main_url: "https://exoticlibraries.github.io/libmetaref/",
+        links: [
+            {
+                url: "https://github.com/exoticlibraries/libmetaref",
+                icon_class: "fab fa-github"
+            },
+            {
+                url: "https://exoticlibraries.github.io/libmetaref/",
+                icon_class: "fa fa-globe"
+            }
+        ]
+    },
+    {
         name: "Cronux",
         description: "Handy commands to perform simple and complex tasks with Powershell",
         techs: "Powershell, Batch, Bash",
@@ -83,35 +117,18 @@ const AllProjects = [
         ]
     },
     {
-        name: "libopen-types",
+        name: "libxtypes",
         description: "A library of generic, complex data types and structures for C",
         techs: "#c #c++ #makefile",
         type: "library",
-        main_url: "https://github.com/libopenprojects/libopen-types",
+        main_url: "https://github.com/exoticlibraries/libxtypes",
         links: [
             {
-                url: "https://github.com/libopenprojects/libopen-types",
+                url: "https://github.com/exoticlibraries/libxtypes",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://libopenprojects.github.io/libopen-types/",
-                icon_class: "fa fa-globe"
-            }
-        ]
-    },
-    {
-        name: "libopen-processes",
-        type: "library",
-        description: "Get list of running processes and listen to process life cycle with callback",
-        techs: "#c++ #makefile",
-        main_url: "https://libopenprojects.github.io/libopen-processes",
-        links: [
-            {
-                url: "https://github.com/libopenprojects/libopen-processes",
-                icon_class: "fab fa-github"
-            },
-            {
-                url: "https://libopenprojects.github.io/libopen-processes",
+                url: "https://exoticlibraries.github.io/libxtypes/",
                 icon_class: "fa fa-globe"
             }
         ]
@@ -175,18 +192,18 @@ const AllProjects = [
         ]
     },
     {
-        name: "libopen-notify",
+        name: "libnosey",
         type: "library",
         description: "Send system notification on various platforms.",
         techs: "#c++ #makefile #c #bash",
-        main_url: "https://libopenprojects.github.io/libopen-notify",
+        main_url: "https://exoticlibraries.github.io/libnosey",
         links: [
             {
-                url: "https://github.com/libopenprojects/libopen-notify",
+                url: "https://github.com/exoticlibraries/libnosey",
                 icon_class: "fab fa-github"
             },
             {
-                url: "https://libopenprojects.github.io/libopen-notify",
+                url: "https://exoticlibraries.github.io/libnosey",
                 icon_class: "fa fa-globe"
             }
         ]
