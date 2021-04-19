@@ -1,0 +1,277 @@
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+@import url("https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css");
+
+* {
+    font: 1.0em "Fira Sans", serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    background: #0c3452;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+i {
+    font-size: 20px !important;
+}
+
+.code-block {
+    background: white;
+    color: gray;
+    padding: 20px;
+    margin-top: 5px;
+    margin-right: 150px;
+}
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #0c3452;
+    overflow-x: hidden;
+    -webkit-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
+    -moz-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
+    box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidenav .icon {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.sidenav i {
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.sidenav a {
+    text-decoration: none;
+}
+
+.sidenav i:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .bottom-sidenav {
+    margin-bottom: 70% !important;
+}
+
+.sidenav .bottom-sidenav a {
+    color: white;
+}
+
+.main {
+    margin-left: 80px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+#Home {
+    display: none;
+    padding: 5%;
+    font-size: 1.1em;
+}
+
+#Home p {
+    max-width: 40%;
+}
+
+@media (max-width:700px){
+    #Home p {
+        max-width: 100%;
+    }
+}
+
+#Home p .s1 {
+    font-size: 20px;
+}
+
+#Home .s2 {
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.right-side div {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.right-side a {
+    color: white;
+    text-decoration: none;
+}
+
+.right-side a:hover {
+    color: gray;
+}
+
+#Projects {
+    height: 100%;
+    padding: 5%;
+}
+
+#Projects .projects-title p {
+    font-size: 45px;
+}
+
+#Projects .projects-title p .s1 {
+    font-size: 20px;
+}
+
+#Projects .projects-title .type-title {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#Projects .projects-title .selected {
+    color: #70c8ff;
+}
+
+#Projects .projects-title .type-title:hover {
+    color: #70c8ff;
+}
+
+#Projects #all-projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    font-size: 20px;
+    margin-top: 2.5em;
+    margin-right: 2.5em;
+    width: 400px;
+    max-width: 450px;
+    display: block;
+}
+
+.project a {
+    color: white;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project .title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.project .project-type {
+    font-size: 17px;
+}
+
+.project .tech-used {
+    font-size: 15px;
+}
+
+.project .links {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.project .links a {
+    color: white;
+    padding: 5px;
+}
+
+#Posts {
+    height: 100%;
+    padding: 5%;
+}
+
+#Posts .posts-title p {
+    font-size: 45px;
+}
+
+#Posts .right-side {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+#Posts .right-side div {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    padding-left: 0px;
+}
+
+#Contact {
+    height: 100%;
+    padding: 5%;
+}
+
+#Contact .contact-title p {
+    font-size: 45px;
+}
+
+#Contact form input {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+}
+
+#Contact form textarea {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+    height: 200px;
+}
+
+#Contact form .submit {
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
