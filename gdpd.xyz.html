@@ -1,0 +1,32 @@
+<!-- Adewale Azeez -->
+<!-- MIT License -->
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hi I am Adewale Azeez">
+    <meta name="keywords" content="Adewale,Thecarisma,Azeez,C,C++,Java,.NET,linux">
+    <meta name="author" content="Adewale Azeez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+</head>
+
+<body style="margin: 0px; padding: 0px; background-color: black; overflow: hidden;">
+    <video style="width: 100vw; height: 100vh;" id="vid" autoplay>
+        <source src="assets/videos/nggyu.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div id="dialog" style="width: 100vw; height: 100vh; position: absolute; top: 0px; left: 0px; background-color: black; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <button style="padding: 16px 20px 16px 20px; background: #4671b8; border: none; border-radius: 7px; outline: none; color: white; cursor: pointer;" onclick="rickRoll()">Conitnue</button>
+    </div>
+
+    <script>
+        function rickRoll() {
+            document.getElementById('dialog').style.display = "none";
+            document.getElementById('vid').play();
+        }
+    </script>
+</body>
+
+</html>
